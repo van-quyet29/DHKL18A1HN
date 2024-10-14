@@ -1,0 +1,138 @@
+   46  cd BaiTapGithub
+   47  git clone https://github.com/NguyenChuHoangMinh/24174600011_Nguyen_Chu_Hoang_Minh_bai_tap.git
+   48  cd 24174600011_Nguyen_Chu_Hoang_Minh_bai_tap
+   49  git init
+   61  git add README.md
+   62  git commit -m "cap nhat noi dung moi cho file README"
+   63  git push origin main
+   68  git checkout -b branch_1
+   69  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+   70  git add text_branch_1.txt
+   71  git commit -m "tao file text_branch_1.txt"
+   79  git push origin branch_1
+   80  git checkout -b branch_2
+   81  echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+   82  git add text_branch_2.txt
+   83  git commit -m "them tap tin text_branch_2.txt vao nhanh branch_2"
+   84  git push origin branch_2
+   85  git checkout -b branch_3
+   86  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat" > text_branch_3.txt
+   87  git add text_branch_3.txt
+   88  git commit -m "them tap tin text_branch_3.txt vao nhanh branch_3"
+   89  git push origin branch_3
+   90  git checkout -b branch_4
+   91  echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+   92  git add text_branch_4.txt
+   93  git commit -m "them tap tin text_branch_4 vao nhanh branch_4"
+   94  git push origin branch_4
+   95  git branch -D branch_4
+   96  git branch -delete branch_4
+   97  git branch -delete
+   98  cd .
+   99  cd ..
+  100  git branch -d branch_4
+  101  cd branch_1
+  102  git checkout branch_1
+  103  cd D:/BaiTapGithub/worktree_branch_4
+  104  git checkout main
+  105  cd 24174600011_Nguyen_Chu_Hoang_Minh_bai_tap
+  106  git checkout branch_1
+  107  git branch -D branch_4
+  108  git branch -list
+  109  git push origin branch_1
+  110  git branch list
+  111  cd BaiTapGithub
+  112  cd 24174600011_Nguyen_Chu_Hoang_Minh_bai_tap
+  113  checkout branch_4
+  114  git pull
+  115  cd .
+  116  ckeckout
+  117  git push origin branch_2
+  118  git push origin branch_1
+  119  cd branch_2
+  120  git add text_branch_2
+  121  git add branch_2
+  122  checkout
+  123  git checkout main
+  124  git branch
+  125  checkout branch_2
+  126  git checkout branch_2
+  127  git checkout main
+  128  git checkout branch_4
+  129  git branch -delete
+  130  git checkout main
+  131  git branch -delete branch_4
+  132  git branch -D branch_4
+  133  git branch -list
+  134  git branch -list branch_4
+  135  git branch -L branch_4
+  136  git branch
+  137  git checkout branch_4
+  138  git checkout main
+  139  git checkout branch_5
+  140  git branch
+  141  git branch -d branch_4
+  142  git branch
+  143  git branch -list
+  144  cd .
+  145  checkout
+  146  git checkout
+  147  git branch
+  148  git pull
+  149  mkdir main_folder
+  150  cd main_folder
+  151  touch main_txt_1.txt
+  152  touch main_txt_2.txt
+  153  touch main_txt_3.txt
+  154  git add main_folder
+  155  checkout main
+  156  cd .
+  157  cd ..
+  158  git add main_folder
+  159  git commit -m "them thu muc main_folder va cac file"
+  160  git push origin main
+  161  git pull
+  162  git checkout branch_1
+  163  git checkout -b branch_5
+  164  git add text_branch_1.txt
+  165  git commit -m "chinh sua noi dung text_branch_1.txt"
+  166  git push origin branch_5
+  167  git checkout main
+  168  git branch -d branch_5
+  169  git branch -D branch_5
+  170  git push origin --delete branch_5
+  171  git pull
+  172  git branch
+  173  git checkout branch_4
+  174  git branch
+  175  git checkout main
+  176  git branch
+  177  git merge branch_1
+  178  git checkout main
+  179  git merge branch_1
+  180  git merge branch_2
+  181  git branch
+  182  git checkout branch_4
+  183  git checkout main
+  184  git pull
+  185  git checkout branch_1
+  186  git checkout branch_2
+  187  git checkout branch_3
+  188  git checkout branch_4
+  189  git checkout main
+  190  git branch
+  191  git branch -d branch_2
+  192  git branch -D branch_2
+  193  git branch -D branch_3
+  194  git branch -D branch_4
+  195  git push origin --delete branch_2
+  196  git push origin --delete branch_3
+  197  git push origin --delete branch_4
+  198  git checkout branch_1
+  199  git pull origin main
+  200  git push
+  201  git push --set-upstream origin branch_1
+  202  git push
+  203  git checkout main
+  204  git pull
+  205  touch caulenh.txt
