@@ -1,0 +1,267 @@
+$ git clone https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+  Cloning into '24174600008_Nguyen_Quang_Truong_bai_tap'...
+  remote: Enumerating objects: 3, done.
+  remote: Counting objects: 100% (3/3), done.
+  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  Receiving objects: 100% (3/3), done.
+$ cd 24174600008_Nguyen_Quang_Truong_bai_tap
+$ git add .
+$ git commit -m "Edit file Readme.md"
+   [main daa1d31] Edit file Readme.md
+   1 file changed, 1 insertions(+), 1 deletion(-)
+$ git push origin
+  Enumerating objects: 5, done.
+  Counting objects: 100% (5/5), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (2/2), done.
+  Writing objects: 100% (3/3), 813 bytes | 271.00 KiB/s, done.
+  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+     a3476be..daa1d31  main -> main
+
+$ git checkout -b branch_1
+   Switched to a new branch 'branch_1'
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > "text_branch_1.txt"
+$ git add "text_branch_1.txt"
+$ git commit -m "Branch_1 created"
+  [branch_1 fc6fd9a] Branch_1 created
+   1 file changed, 1 insertion(+)
+   create mode 100644 text_branch_1.txt
+$ git push origin
+  Enumerating objects: 4, done.
+  Counting objects: 100% (4/4), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 541 bytes | 270.00 KiB/s, done.
+  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  remote:
+  remote: Create a pull request for 'branch_1' on GitHub by visiting:
+  remote:      https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap/pull/new/branch_1
+  remote:
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+   * [new branch]      branch_1 -> branch_1
+  branch 'branch_1' set up to track 'origin/branch_1'.
+
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$ git checkout -b branch_2
+   Switched to a new branch 'branch_2'
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > "text_branch_2.txt"
+$ git add "text_branch_2.txt"
+$ git commit -m "Branch_2 created"
+[branch_2 79a0808] Branch_2 created
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+$ git push origin
+  Enumerating objects: 4, done.
+  Counting objects: 100% (4/4), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 535 bytes | 267.00 KiB/s, done.
+  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  remote:
+  remote: Create a pull request for 'branch_2' on GitHub by visiting:
+  remote:      https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap/pull/new/branch_2
+  remote:
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+   * [new branch]      branch_2 -> branch_2
+  branch 'branch_2' set up to track 'origin/branch_2'.
+
+$ git checkout main
+   Switched to branch 'main'
+   Your branch is up to date with 'origin/main'.
+$ git checkout -b branch_3
+   Switched to a new branch 'branch_3'
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > "text_branch_3.txt"
+$ git add "text_branch_3.txt"
+$ git commit -m "Branch_3 created"
+  [branch_3 0ebf7ff] Branch_3 created
+   1 file changed, 1 insertion(+)
+   create mode 100644 text_branch_3.txt
+$ git push origin
+  Enumerating objects: 4, done.
+  Counting objects: 100% (4/4), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 543 bytes | 271.00 KiB/s, done.
+  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  remote:
+  remote: Create a pull request for 'branch_3' on GitHub by visiting:
+  remote:      https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap/pull/new/branch_3
+  remote:
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+   * [new branch]      branch_3 -> branch_3
+  branch 'branch_3' set up to track 'origin/branch_3'.
+
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$ git checkout -b branch_4
+   Switched to a new branch 'branch_4'
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > "text_branch_4.txt"
+$ git add "text_branch_4.txt"
+$ git commit -m "Branch_4 created"
+  [branch_4 6a70146] Branch_4 created
+   1 file changed, 1 insertion(+)
+   create mode 100644 text_branch_4.txt
+$ git push origin
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 536 bytes | 268.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+branch 'branch_4' set up to track 'origin/branch_4'.
+
+$ git checkout main
+   Switched to branch 'main'
+   Your branch is up to date with 'origin/main'.
+$ git branch -d branch_4
+   Deleted branch branch_4 (was 5d6fb33).
+$ git branch -l
+   branch_1
+   branch_2
+   branch_3
+ * main
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/main
+$ git pull
+   Already up to date.
+$ mkdir "main_folder"
+$ cd main_folder
+$ touch "main_txt_1.txt"
+$ touch "main_txt_2.txt"
+$ touch "main_txt_3.txt"
+$ git add .
+$ git commit -m "Create main_folder"
+  [main 86e5cf6] Create main_folder
+   3 files changed, 0 insertions(+), 0 deletions(-)
+   create mode 100644 main_folder/main_txt_1.txt
+   create mode 100644 main_folder/main_txt_2.txt
+   create mode 100644 main_folder/main_txt_3.txt
+$ git push origin
+  Enumerating objects: 5, done.
+  Counting objects: 100% (5/5), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (4/4), 547 bytes | 182.00 KiB/s, done.
+  Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+     daa1d31..86e5cf6  main -> main
+$ git pull
+   Already up to date.
+$ cd ..
+$ git checkout branch_1
+   Switched to branch 'branch_1'
+$ git checkout -b branch_5
+   Switched to a new branch 'branch_5'
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus
+  eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac
+  finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat.
+  Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla
+  sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+  inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+  pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus
+  dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+$ git checkout branch_1
+  M       text_branch_1.txt
+  Switched to branch 'branch_1'
+  Your branch is up to date with 'origin/branch_1'.
+$ git pull
+  Already up to date.
+$ git add "text_branch_1.txt"
+$ git commit -m "Update file text_branch_1.txt"
+  [branch_1 e7ffc47] Update file text_branch_1.txt
+   1 file changed, 8 insertions(+), 1 deletion(-)
+$ git push origin
+  Enumerating objects: 5, done.
+  Counting objects: 100% (5/5), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 884 bytes | 442.00 KiB/s, done.
+  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+     fc6fd9a..e7ffc47  branch_1 -> branch_1
+$ git branch -d branch_5
+  Deleted branch branch_5 (was fc6fd9a).
+
+$ git checkout main
+  Switched to branch 'main'
+   Your branch is up to date with 'origin/main'.
+$ git merge branch_1
+  Merge made by the 'ort' strategy.
+   text_branch_1.txt | 8 ++++++++
+   1 file changed, 8 insertions(+)
+   create mode 100644 text_branch_1.txt
+$ git merge branch_2
+  Merge made by the 'ort' strategy.
+   text_branch_2.txt | 1 +
+   1 file changed, 1 insertion(+)
+   create mode 100644 text_branch_2.txt
+$ git merge branch_3
+  Merge made by the 'ort' strategy.
+   text_branch_3.txt | 1 +
+   1 file changed, 1 insertion(+)
+   create mode 100644 text_branch_3.txt
+$ git merge branch_4
+  Merge made by the 'ort' strategy.
+   text_branch_4.txt | 1 +
+   1 file changed, 1 insertion(+)
+   create mode 100644 text_branch_4.txt
+$ ls
+main_folder/  README.md  text_branch_1.txt  text_branch_2.txt  text_branch_3.txt  text_branch_4.txt
+
+$ git branch -d branch_2
+  Deleted branch branch_2 (was 79a0808)
+$ git branch -d branch_3
+  Deleted branch branch_3 (was 0ebf7ff).
+$ git branch -d branch_4
+  Deleted branch branch_4 (was 6a70146).
+
+$ git push origin -d branch_2
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+   - [deleted]         branch_2
+$ git push origin -d branch_3
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+   - [deleted]         branch_3
+$ git push origin -d branch_4
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+   - [deleted]         branch_4
+
+$ git checkout branch_1
+  Switched to branch 'branch_1'
+   Your branch is up to date with 'origin/branch_1'.
+$ git pull origin main
+  From https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap
+   * branch            main       -> FETCH_HEAD
+  Already up to date.
+$ git push
+  Enumerating objects: 15, done.
+  Counting objects: 100% (15/15), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (12/12), done.
+  Writing objects: 100% (12/12), 2.24 KiB | 287.00 KiB/s, done.
+  Total 12 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+  remote: Resolving deltas: 100% (3/3), done.
+  To https://github.com/NQT-GH/24174600008_Nguyen_Quang_Truong_bai_tap.git
+     86e5cf6..cd24dbe  main -> main
+
+$ touch "caulenh.txt"
+$ git add "caulenh.txt"
+$ git commit -m "Create file caulenh.txt"
+[main c6fbb89] Create file caulenh.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 caulenh.txt
+$ git push
