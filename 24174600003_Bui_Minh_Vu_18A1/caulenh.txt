@@ -1,0 +1,733 @@
+DELL@DESKTOP-7ODLFDU MINGW64 ~ (12345)
+$ cd Desktop
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop (12345)
+$ git clone https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+Cloning into '24174600003_BuiMinhVu_BaiTap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop (12345)
+$ cd 24174600003_BuiMinhVu_BaiTap
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia
+suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus.
+Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum
+risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida,
+ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies
+dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa
+pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi
+quis felis placerat, interdum justo a, aliquam risus." > README.md
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git commit -m "Sua file readme"
+[main 5c702a0] Sua file readme
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 631 bytes | 631.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+   e0e95a9..5c702a0  main -> main
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap/.git/
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git commit -m "Taonhanh1"
+[branch_1 6c6e774] Taonhanh1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git push origin
+fatal: The current branch branch_1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ echo "Hello World" > caulenh.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git add .
+warning: in the working copy of 'caulenh.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git commit -m "File cau lenh"
+[main 3a16158] File cau lenh
+ 1 file changed, 1 insertion(+)
+ create mode 100644 caulenh.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+   5c702a0..3a16158  main -> main
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 345 bytes | 345.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap/pull/new/branch_1
+remote:
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ * [new branch]      branch_1 -> branch_1
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ git add text_branch_2
+fatal: pathspec 'text_branch_2' did not match any files
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ git commit -m "Tao nhanh2"
+[branch_2 cd5e12f] Tao nhanh2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 371 bytes | 371.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap/pull/new/branch_2
+remote:
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ * [new branch]      branch_2 -> branch_2
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git add .
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap/.git/
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git push origin branch_3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap/pull/new/branch_3
+remote:
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ * [new branch]      branch_3 -> branch_3
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+A       text_branch_3.txt
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 3a16158).
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap/.git/
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git commit -m "Tao nhanh3"
+[branch_3 8eb660f] Tao nhanh3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 382 bytes | 382.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+   3a16158..8eb660f  branch_3 -> branch_3
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap/.git/
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_4)
+$ git add text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_4)
+$ git commit -m "Tao nhanh 4"
+[branch_4 15f2c71] Tao nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 371 bytes | 371.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap/pull/new/branch_4
+remote:
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ * [new branch]      branch_4 -> branch_4
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_4)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap/.git/
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -delete branch_4
+error: did you mean `--delete` (with two dashes)?
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 15f2c71).
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap/.git/
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git pull origin main
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap/.git/
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ mkdir main_folder
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ echo " " >main_txt_1.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ echo " " > main_txt_2.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ echo " " > main_txt_3.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin main
+Everything up-to-date
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git  add main_folder
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git commit -m "Them thu muc main_folder voi cac tap tin"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main_txt_1.txt
+        main_txt_2.txt
+        main_txt_3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin main
+Everything up-to-date
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git push origin main_folder
+error: src refspec main_folder does not match any
+error: failed to push some refs to 'https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git branch -D main_folder
+error: branch 'main_folder' not found
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -D main folder
+error: cannot delete branch 'main' used by worktree at 'C:/Users/DELL/Desktop/24174600003_BuiMinhVu_BaiTap'
+error: branch 'folder' not found
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ mkdir main_folder
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ cd main_folder
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ git add .
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ git commit -m "File thu muc"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../main_txt_1.txt
+        ../main_txt_2.txt
+        ../main_txt_3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ git push origin main_folder
+error: src refspec main_folder does not match any
+error: failed to push some refs to 'https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ ^C
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ echo "1234" >1.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ git add 1.txt
+warning: in the working copy of 'main_folder/1.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ git push origin main_folder
+error: src refspec main_folder does not match any
+error: failed to push some refs to 'https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap/main_folder (main)
+$ cd ..
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git add main_folder
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git commit -m "Them thu muc main_folder voi cac tap tin"
+[main e0159e4] Them thu muc main_folder voi cac tap tin
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main_folder/1.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push orgin main
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 392 bytes | 392.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+   3a16158..e0159e4  main -> main
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git pull origin
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git pull origin branch_1
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            branch_1   -> FETCH_HEAD
+Already up to date.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ git pull origin branch_2
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            branch_2   -> FETCH_HEAD
+Already up to date.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git pull origin branch_3
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            branch_3   -> FETCH_HEAD
+Already up to date.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus
+eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac
+finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat.
+Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla
+sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus
+dignissim mollis leo, vitae tristique enim" >text_branch_1.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git add text branch_1.txt
+fatal: pathspec 'text' did not match any files
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git commit -m "Cap nhat noi dung cho tep text_branch_1.txt"
+On branch branch_5
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text_branch_1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main_txt_1.txt
+        main_txt_2.txt
+        main_txt_3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git push origin brach_5
+error: src refspec brach_5 does not match any
+error: failed to push some refs to 'https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git push origin branch_5
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap/pull/new/branch_5
+remote:
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ * [new branch]      branch_5 -> branch_5
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git add text_branch_1.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git commit-m "Giai quyet conflict va giu noi dung cho tep text_branch_1.txt tronhanh branch_5.txt"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git commit -m "Giai quyet conflict va giu noi dung tu branch_5"
+[branch_5 7c88a68] Giai quyet conflict va giu noi dung tu branch_5
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 703 bytes | 703.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+   6c6e774..7c88a68  branch_5 -> branch_5
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 7c88a68).
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin --delete branch_5
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ - [deleted]         branch_5
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git pull origin main
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git pull origin main
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git pull origin main
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 8 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (8/8), 3.77 KiB | 94.00 KiB/s, done.
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            main       -> FETCH_HEAD
+   e0159e4..90e6dbf  main       -> origin/main
+Updating e0159e4..90e6dbf
+Fast-forward
+ text_branch_1.txt | 1 +
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 4 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ ls
+README.md     main_txt_1.txt  text_branch_1.txt  text_branch_4.txt
+caulenh.txt   main_txt_2.txt  text_branch_2.txt
+main_folder/  main_txt_3.txt  text_branch_3.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was cd5e12f).
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch-d branch_3
+git: 'branch-d' is not a git command. See 'git --help'.
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 8eb660f).
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -d branch_4
+error: branch 'branch_4' not found
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -D branch_4
+error: branch 'branch_4' not found
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git branch -d branch_4
+error: branch 'branch_4' not found
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin --delete branch_2
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ - [deleted]         branch_2
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin --delete branch_3
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ - [deleted]         branch_3
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git push origin --delete branch_4
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+ - [deleted]         branch_4
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git pull origin main
+From https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap
+ * branch            main       -> FETCH_HEAD
+Updating 6c6e774..90e6dbf
+Fast-forward
+ caulenh.txt       | 1 +
+ main_folder/1.txt | 1 +
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 5 files changed, 5 insertions(+)
+ create mode 100644 caulenh.txt
+ create mode 100644 main_folder/1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minhvu775/24174600003_BuiMinhVu_BaiTap.git
+   6c6e774..90e6dbf  branch_1 -> branch_1
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$ ^C
+
+DELL@DESKTOP-7ODLFDU MINGW64 ~/Desktop/24174600003_BuiMinhVu_BaiTap (branch_1)
+$
