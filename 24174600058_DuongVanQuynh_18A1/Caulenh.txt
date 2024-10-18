@@ -1,0 +1,373 @@
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL
+$ git clone https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+Cloning into '24174600058_Duong_Van_Quynh_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL
+$ cd 24174600058_Duong_Van_Quynh_bai_tap
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git add .
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git commit -m "Sửa nội dung file"
+[main cc42398] Sửa nội dung file
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 634 bytes | 634.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+   daeba68..cc42398  main -> main
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git checkout -b "branch_1"
+Switched to a new branch 'branch_1'
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_1)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_1)
+$ git commit -m "Tạo nhánh 1"
+[branch_1 c737ad9] Tạo nhánh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$  git checkout -b "branch_2"
+Switched to a new branch 'branch_2'
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_2)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_2)
+$ git commit -m "Tạo nhánh 2"
+[branch_2 bef786f] Tạo nhánh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 346 bytes | 346.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git checkout -b "branch_3"
+Switched to a new branch 'branch_3'
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_3)
+$ git add .
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_3)
+$ git commit -m "Tạo nhánh 3"
+[branch_3 4ee954a] Tạo nhánh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 355 bytes | 355.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git checkout -b "branch_4"
+Switched to a new branch 'branch_4'
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_4)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_4)
+$ git commit -m "Tạo nhánh 4"
+[branch_4 863325b] Tạo nhánh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_4)
+$  git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 344 bytes | 172.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 863325b).
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git pull origin main
+From https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ mkdir new_folder
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ cd new_folder
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap/new_folder (main)
+$ touch main_txt_1.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap/new_folder (main)
+$ touch main_txt_2.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap/new_folder (main)
+$ touch main_txt_3.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap/new_folder (main)
+$ cd ..
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git add new_folder
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git commit -m "Thêm folder"
+[main 7393998] Thêm folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new_folder/main_txt_1.txt
+ create mode 100644 new_folder/main_txt_2.txt
+ create mode 100644 new_folder/main_txt_3.txt
+
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 347 bytes | 173.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+   cc42398..7393998  main -> main
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_5)
+$ ls
+README.md  text_branch_1.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus
+eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac
+finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat.
+Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla
+sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus
+dignissim mollis leo, vitae tristique enim" > text_branch_1.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_5)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_5)
+$ git commit -m "Sửa đổi file"
+[branch_5 2c4a37f] Sửa đổi file
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 686 bytes | 686.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -d branch_5
+error: the branch 'branch_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_5'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 2c4a37f).
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -D branch_1
+Deleted branch branch_1 (was c737ad9).
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was bef786f).
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was 4ee954a).
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git add .
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git commit -m "Xóa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git pull
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.74 KiB | 242.00 KiB/s, done.
+From https://github.com/duongquynh120606/24174600058_Duong_Van_Quynh_bai_tap
+   7393998..355a6cd  main       -> origin/main
+   c737ad9..a74c3a7  branch_1   -> origin/branch_1
+Updating 7393998..355a6cd
+Fast-forward
+ text_branch_1.txt | 8 ++++++++
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 11 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git branch -l
+* main
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git add .
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git commit -m "Xóa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+quynh@Quynh MINGW64 /h/BỔ TRỢ/Tài liệu/Lớp 12/3. TIN HỌC CƠ SỞ CHO KHDL/24174600058_Duong_Van_Quynh_bai_tap (main)
+$ git push origin
+Everything up-to-date
