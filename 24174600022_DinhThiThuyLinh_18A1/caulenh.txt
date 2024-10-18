@@ -1,0 +1,480 @@
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents
+$ git clone https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_nop_bai.git
+Cloning into '24174600022_DINH_THI_THUY_LINH_nop_bai'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents
+$ cd 24174600022_DINH_THI_THUY_LINH_nop_bai
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_nop_bai (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia
+suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus.
+Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum
+risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida,
+ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies
+dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa
+pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi
+quis felis placerat, interdum justo a, aliquam risus. " > README.md
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_nop_bai (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_nop_bai (main)
+$ git commit -m "Thay doi noi dung"
+[main a2bfb8c] Thay doi noi dung
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_nop_bai (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 643 bytes | 643.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_nop_bai.git
+   4b3a6d1.Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Dell N5430/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/.git/
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git checkout -b text_branch_1.txt
+Switched to a new branch 'text_branch_1.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git commit -m "Day la nhanh1"
+[text_branch_1.txt 565f8f3] Day la nhanh1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ ls
+README.md  text_branch_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ ls
+README.md
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git checkout -b text_branch_2.txt
+Switched to a new branch 'text_branch_2.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales" > text_branch_2.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ git commit -m "Day la nhanh 2"
+[text_branch_2.txt 33c4c74] Day la nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ ls
+README.md  text_branch_2.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ ls
+README.md
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git checkout -b text_branch_3.txt
+Switched to a new branch 'text_branch_3.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." >  text_branch_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$ git add .
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$ git commit -m "Day la nhanh3"
+[text_branch_3.txt 9ed785c] Day la nhanh3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$ ls
+README.md  text_branch_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ ls
+README.md
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git checkout -b text_branch_4.txt
+Switched to a new branch 'text_branch_4.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ echo " Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ git commit -m "Day la nhanh 4"
+[text_branch_4.txt 1a8f8c0] Day la nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ ls
+README.md  text_branch_4.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ git checkout text_branch_1.txt
+Switched to branch 'text_branch_1.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ ls
+README.md  text_branch_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git push origin
+fatal: The current branch text_branch_1.txt has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin text_branch_1.txt
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git push --set-upstream origin text_branch_1.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 363 bytes | 363.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_1.txt' on GitHub by visiting:
+remote:      https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap/pull/new/text_branch_1.txt
+remote:
+To https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap.git
+ * [new branch]      text_branch_1.txt -> text_branch_1.txt
+branch 'text_branch_1.txt' set up to track 'origin/text_branch_1.txt'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git checkout text_branch_2.txt
+Switched to branch 'text_branch_2.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ ls
+README.md  text_branch_2.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ git push --set-upstream origin text_branch_2.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 352 bytes | 352.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_2.txt' on GitHub by visiting:
+remote:      https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap/pull/new/text_branch_2.txt
+remote:
+To https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap.git
+ * [new branch]      text_branch_2.txt -> text_branch_2.txt
+branch 'text_branch_2.txt' set up to track 'origin/text_branch_2.txt'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_2.txt)
+$ git checkout text_branch_3.txt
+Switched to branch 'text_branch_3.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$ ls
+README.md  text_branch_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$  git push --set-upstream origin text_branch_3.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 364 bytes | 364.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_3.txt' on GitHub by visiting:
+remote:      https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap/pull/new/text_branch_3.txt
+remote:
+To https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap.git
+ * [new branch]      text_branch_3.txt -> text_branch_3.txt
+branch 'text_branch_3.txt' set up to track 'origin/text_branch_3.txt'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_3.txt)
+$ git  checkout text_branch_4.txt
+Switched to branch 'text_branch_4.txt'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ ls
+README.md  text_branch_4.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ git push --set-upstream origin text_branch_4.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 356 bytes | 356.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_4.txt' on GitHub by visiting:
+remote:      https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap/pull/new/text_branch_4.txt
+remote:
+To https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap.git
+ * [new branch]      text_branch_4.txt -> text_branch_4.txt
+branch 'text_branch_4.txt' set up to track 'origin/text_branch_4.txt'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_4.txt)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git branch -d text_branch_4.txt
+warning: deleting branch 'text_branch_4.txt' that has been merged to
+         'refs/remotes/origin/text_branch_4.txt', but not yet merged to HEAD
+Deleted branch text_branch_4.txt (was 1a8f8c0).
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git branch -l
+* main
+  text_branch_1.txt
+  text_branch_2.txt
+  text_branch_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git pull
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (7/7), 3.72 KiB | 173.00 KiB/s, done.
+From https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap
+   501db21..bf38ca4  main       -> origin/main
+Updating 501db21..bf38ca4
+Fast-forward
+ text_branch_1.txt | 1 +
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 4 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main|MERGING)
+$ mkdir main_folder
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main|MERGING)
+$ cd main_folder
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main|MERGING)
+$ echo "." > main_txt_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main|MERGING)
+$ git add .
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main|MERGING)
+$ git commit -m " Day la main_folder"
+[main 215d3b5]  Day la main_folder
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ echo "." > main_txt_2.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$  git add .
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ git commit -m " Day la main_folder"
+[main e3b2379]  Day la main_folder
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main_folder/main_txt_2.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ echo "." > main_txt_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ git add .
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ git commit -m " Day la main_folder"
+[main 972914f]  Day la main_folder
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main_folder/main_txt_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ ls
+main_txt_1.txt  main_txt_2.txt  main_txt_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ git push origin
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (21/21), 1.84 KiB | 944.00 KiB/s, done.
+Total 21 (delta 9), reused 1 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (9/9), completed with 1 local object.
+To https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap.git
+   13695c3..972914f  main -> main
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap/main_folder (main)
+$ git pull
+Already up to date.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git checkout text_branch_1.txt
+Switched to branch 'text_branch_1.txt'
+Your branch is up to date with 'origin/text_branch_1.txt'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (branch_5)
+$ ls
+README.md  caulenh.txt  text_branch_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (branch_5)
+$  echo " Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus
+eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac
+finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat.
+Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla
+sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus
+dignissim mollis leo, vitae tristique enim. " > text_branch_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (branch_5)
+$ git add .
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (branch_5)
+$ git commit -m " Noi dung moi"
+[branch_5 58ebba3]  Noi dung moi
+ 2 files changed, 9 insertions(+), 1 deletion(-)
+ create mode 100644 caulenh.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (branch_5)
+$ git push origin
+fatal: The current branch branch_5 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_5
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (branch_5)
+$ git push --set-upstream origin branch_5
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 738 bytes | 738.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+branch 'branch_5' set up to track 'origin/branch_5'.
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (branch_5)
+$ git checkout text_branch_1.txt
+Switched to branch 'text_branch_1.txt'
+Your branch is up to date with 'origin/text_branch_1.txt'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ ls
+README.md  text_branch_1.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git branch -d branch_5
+warning: deleting branch 'branch_5' that has been merged to
+         'refs/remotes/origin/branch_5', but not yet merged to HEAD
+Deleted branch branch_5 (was 58ebba3).
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git branch -l
+  caulenh.txt
+  main
+* text_branch_1.txt
+  text_branch_2.txt
+  text_branch_3.txt
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (text_branch_1.txt)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.82 KiB | 124.00 KiB/s, done.
+From https://github.com/linh2404/24174600022_DINH_THI_THUY_LINH_bai_tap
+   972914f..38a4e69  main       -> origin/main
+Updating 972914f..38a4e69
+Fast-forward
+ text_branch_1.txt | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git branch -d text_branch_2.txt
+Deleted branch text_branch_2.txt (was 6d21a1d).
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git branch -d text_branch_3.txt
+Deleted branch text_branch_3.txt (was e21fe6e).
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git branch -d text_branch_4.txt
+error: branch 'text_branch_4.txt' not found
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git pull
+Already up to date.
+
+Dell N5430@ThuyLinh-2404 MINGW64 ~/Documents/24174600022_DINH_THI_THUY_LINH_bai_tap (main)
+$ git push
+Everything up-to-date
+
