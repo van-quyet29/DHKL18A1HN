@@ -1,0 +1,464 @@
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github
+$ git clone https://github.com/Phuc18A1/24174600034_Dao_Doan_Huy_Phuc_bai_tap.git Discord
+Cloning into 'Discord'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github
+$ cd Discord
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia
+suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus.
+Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum
+risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida,
+ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies
+dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa
+pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi
+quis felis placerat, interdum justo a, aliquam risus. " > "README.md"
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git commit -m  "nop bai"
+[main 2386071] nop bai
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 626 bytes | 626.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+   d7f7eaf..2386071  main -> main
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/admin/Documents/thực hành git và github/Discord/.git/
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git checkout
+Your branch is up to date with 'origin/main'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ touch text_branch_1.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " > "text_branch_1.txt"
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ git commit -m "nop bai"
+[branch_1 ee51a4d] nop bai
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ git push origin
+fatal: The current branch branch_1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$  git push --set-upstream origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 349 bytes | 349.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+branch 'branch_1' set up to track 'origin/branch_1'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ git push origin
+Everything up-to-date
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ git init
+Reinitialized existing Git repository in C:/Users/admin/Documents/thực hành git và github/Discord/.git/
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2.txt)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ touch text_branch_2.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > "text_branch_2.txt"
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ git commit -m "nop bai"
+[branch_2 c907016] nop bai
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ git push origin
+fatal: The current branch branch_2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ git push --set-upstream origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+branch 'branch_2' set up to track 'origin/branch_2'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ git push origin
+Everything up-to-date
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ git init
+Reinitialized existing Git repository in C:/Users/admin/Documents/thực hành git và github/Discord/.git/
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+$ touch text_branch_3.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat. " > "text_branch_3.txt"
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+$ git add .
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+$ git commit -m "nop bai"
+[branch_3 aa3cc43] nop bai
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+$ git push origin
+fatal: The current branch branch_3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_3
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+branch 'branch_3' set up to track 'origin/branch_3'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+$ git init
+Reinitialized existing Git repository in C:/Users/admin/Documents/thực hành git và github/Discord/.git/
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_4)
+$ touch text_branch_4.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante. " > "text_branch_4.txt"
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_4)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_4)
+$ git commit -m "nop bai"
+[branch_4 6bbc2ae] nop bai
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_4)
+$ git push origin
+fatal: The current branch branch_4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+  
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_4)
+$ git push --set-upstream origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 340 bytes | 340.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+branch 'branch_4' set up to track 'origin/branch_4'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git pull
+Already up to date.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git branch -d branch_4
+warning: deleting branch 'branch_4' that has been merged to
+         'refs/remotes/origin/branch_4', but not yet merged to HEAD
+Deleted branch branch_4 (was 6bbc2ae).
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord (main)
+$ cd "main folder"
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord/main folder (master)
+$ touch main_txt_1.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord/main folder (master)
+$ touch main_txt_2.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord/main folder (master)
+$ touch main_txt_3.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord/main_folder (master)
+$ git add .
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord/main_folder (master)
+$ git commit -m "them file"
+[master (root-commit) 86be7e6] them file
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_txt_1.txt
+ create mode 100644 main_txt_2.txt
+ create mode 100644 main_txt_3.txt
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord/main folder (master)
+$ cd ..
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord (main)
+
+$ git push origin
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 610 bytes | 610.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+   6bdecbb..85fe02f  main -> main
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+Your branch is up to date with 'origin/branch_1'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus
+eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac
+finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat.
+Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla
+sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus
+dignissim mollis leo, vitae tristique enim." > "text_branch_1.txt"
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_5)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord (branch_5)
+$ git commit -m "nop bai"
+[branch_5 3aa9fb1] nop bai
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_5)
+$ git push
+fatal: The current branch branch_5 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_5
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_5)
+$ git push --set-upstream origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 678 bytes | 678.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+branch 'branch_5' set up to track 'origin/branch_5'.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git branch -d branch_5
+warning: deleting branch 'branch_5' that has been merged to
+         'refs/remotes/origin/branch_5', but not yet merged to HEAD
+Deleted branch branch_5 (was 3aa9fb1).
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/OneDrive/Documents/thực hành git và github/Discord (main)
+$ git push origin --delete branch_5
+To https://github.com/Phuc18A1/Phuc18A1-24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ - [deleted]         branch_5
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git branch -d branch_2
+warning: deleting branch 'branch_2' that has been merged to
+         'refs/remotes/origin/branch_2', but not yet merged to HEAD
+Deleted branch branch_2 (was c907016).
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git branch -d branch_3
+warning: deleting branch 'branch_3' that has been merged to
+         'refs/remotes/origin/branch_3', but not yet merged to HEAD
+Deleted branch branch_3 (was aa3cc43).
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git branch -d branch_4
+error: branch 'branch_4' not found
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git push origin --delete branch_2
+To https://github.com/Phuc18A1/24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ - [deleted]         branch_2
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$  git push origin --delete branch_3
+To https://github.com/Phuc18A1/24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ - [deleted]         branch_3
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git push origin --delete branch_4
+To https://github.com/Phuc18A1/24174600034_Dao_Doan_Huy_Phuc_bai_tap.git
+ - [deleted]         branch_4
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git pull
+Already up to date.
+
+admin@LAPTOP-O8OIR932 MINGW64 ~/Documents/thực hành git và github/Discord (main)
+$ git push
+Everything up-to-date
+
+
+
+
+
+
+
+
+
+
+
+
