@@ -1,0 +1,469 @@
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub
+$ git clone https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+Cloning into '24174600004_NguyenVanDuyAnh_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub
+$ cd 24174600004_NguyenVanDuyAnh_bai_tap
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at  lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel  placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra  sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit  amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed  gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst.  Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec  accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam  risus. " README.md
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at  lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel  placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra  sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit  amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed  gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst.  Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec  accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam  risus.  README.md
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at  lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel  placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra  sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit  amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed  gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst.  Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec  accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam  risus." README.md
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at  lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel  placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra  sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit  amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed  gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst.  Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec  accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam  risus. README.md
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at  lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel  placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra  sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit  amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed  gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst.  Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec  accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam  risus.  " > README.md
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git commit -m "da sua"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'duyan@DESKTOP-LUP1KE9.(none)')
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git commit -m "Thay doi file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'duyan@DESKTOP-LUP1KE9.(none)')
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git config --global user.email "nvdanh.24174600004@sv.uneti.edu.vn"
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git config --global user.name "DuySat78"
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git commit _m "file da sua"
+error: pathspec '_m' did not match any file(s) known to git
+error: pathspec 'file da sua' did not match any file(s) known to git
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git commit -m "file da sua"
+[main 128271e] file da sua
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 628 bytes | 628.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+   bdbd180..128271e  main -> main
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git checkout -b "branch 1"
+fatal: 'branch 1' is not a valid branch name
+hint: See `man git check-ref-format`
+hint: Disable this message with "git config advice.refSyntax false"
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git checkout -b "branch_1"
+Switched to a new branch 'branch_1'
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  " > text_branch.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  " > text_branch_1.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_1)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_1)
+$ git commit -m "nhanh_1"
+[branch_1 7de0904] nhanh_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git checkout -b "branch_2"
+Switched to a new branch 'branch_2'
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales. " > text_branch_2.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_2)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_2)
+$ git commit -m "nhanh_2"
+[branch_2 547a39b] nhanh_2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git checkout -b "branch_3"
+Switched to a new branch 'branch_3'
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ git add .
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ git commit -m "nhanh_3"
+[branch_3 b4115fc] nhanh_3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ git push ogirin branch_3
+fatal: 'ogirin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ git push origin branxh_3
+error: src refspec branxh_3 does not match any
+error: failed to push some refs to 'https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git'
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ git checkout -b main
+fatal: a branch named 'main' already exists
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git checkout -b "branch_4"
+Switched to a new branch 'branch_4'
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante.  " > text_branch_4.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_4)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_4)
+$ git commit -m "nhanh_4"
+[branch_4 a70026d] nhanh_4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was a70026d).
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git pull
+Already up to date.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ mkdir main_foder
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ cd main_foder
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap/main_foder (main)
+$ cd ..
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git rm -f main_foder
+fatal: pathspec 'main_foder' did not match any files
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ cd main_folder
+bash: cd: main_folder: No such file or directory
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ mkdir main_folder
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ cd main_folder
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap/main_folder (main)
+$ touch main_txt_1.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap/main_folder (main)
+$ touch main_txt_2.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap/main_folder (main)
+$ touch main_txt_3.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap/main_folder (main)
+$ cd ..
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git add main_folder
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git commit -m "them file"
+[main e5702a5] them file
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 350 bytes | 350.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+   128271e..e5702a5  main -> main
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$  git checkout branch_1
+Switched to branch 'branch_1'
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ ls
+README.md  text_branch_1.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non  metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan  sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el  dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam  ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent  per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis  ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula  auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim. " > file_nhanh_1.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ git add .
+warning: in the working copy of 'file_nhanh_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ git commit -m "sua file nhanh 1"
+[branch_5 2114a70] sua file nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh_1.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 715 bytes | 715.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ git check out main
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ git checkout manin
+error: pathspec 'manin' did not match any file(s) known to git
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 2114a70).
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -D branch_1
+Deleted branch branch_1 (was 7de0904).
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 547a39b).
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was b4115fc).
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git branch -l
+* main
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git add .
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git push origin
+To https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git fetch
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.63 KiB | 80.00 KiB/s, done.
+From https://github.com/DuySat78/24174600004_NguyenVanDuyAnh_bai_tap
+   e5702a5..1ae9176  main       -> origin/main
+   7de0904..94e04a4  branch_1   -> origin/branch_1
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git pull
+Updating e5702a5..1ae9176
+Fast-forward
+ file_nhanh_1.txt  | 1 +
+ text_branch_1.txt | 1 +
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 5 files changed, 5 insertions(+)
+ create mode 100644 file_nhanh_1.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+duyan@DESKTOP-LUP1KE9 MINGW64 /d/GitHub/24174600004_NguyenVanDuyAnh_bai_tap (main)
+$
