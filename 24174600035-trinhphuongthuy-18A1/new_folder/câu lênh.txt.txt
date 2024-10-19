@@ -1,0 +1,186 @@
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Png-Thuy-baitap (main)
+$ git add new_folder
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git commit -m "Them folder"
+[main d1ecea6] Them folder
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new_folder/file1.txt
+ create mode 100644 new_folder/file2.txt
+ create mode 100644 new_folder/file3.txt
+ create mode 100644 new_folder/file4.txt
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 349 bytes | 349.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/trinhphuongthuy/24174600035-Trinh-Phuong-Thuy-baitap.git
+   5cf6631..d1ecea6  main -> main
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (branch_5)
+$ ls
+README.md
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (branch_5)
+$ echo "Sua file" >file_brach_1.txt
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (branch_5)
+$ git add .
+warning: in the working copy of 'file_brach_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (branch_5)
+$ git commit -m "Sua doi file"
+[branch_5 630865e] Sua doi file
+ 1 file changed, 8 insertions(+)
+ create mode 100644 file_brach_1.txt
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 687 bytes | 343.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/trinhphuongthuy/24174600035-Trinh-Phuong-Thuy-baitap/pull/new/branch_5
+remote:
+To https://github.com/trinhphuongthuy/24174600035-Trinh-Phuong-Thuy-baitap.git
+ * [new branch]      branch_5 -> branch_5
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 630865e).
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+  nhanh_1
+  nhanh_2
+  nhanh_3
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -D branch_1
+Deleted branch branch_1 (was 3f74c5d).
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was 3f74c5d).
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -
+fatal: '-' is not a valid branch name
+hint: See `man git check-ref-format`
+hint: Disable this message with "git config advice.refSyntax false"
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -D branch_2
+error: branch 'branch_2' not found
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was 3f74c5d).
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -D nhanh_1
+Deleted branch nhanh_1 (was 5cf6631).
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -D nhanh_2
+Deleted branch nhanh_2 (was 5cf6631).
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -D nhanh_3
+Deleted branch nhanh_3 (was 5cf6631).
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -l
+* main
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git add .
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git commit -m "Xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ gt push origin
+bash: gt: command not found
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git push origin
+To https://github.com/trinhphuongthuy/24174600035-Trinh-Phuong-Thuy-baitap.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/trinhphuongthuy/24174600035-Trinh-Phuong-Thuy-baitap.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git fetch
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.84 KiB | 209.00 KiB/s, done.
+From https://github.com/trinhphuongthuy/24174600035-Trinh-Phuong-Thuy-baitap
+   d1ecea6..e9aab5c  main       -> origin/main
+   3f74c5d..d2ef984  branch_1   -> origin/branch_1
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git pull
+Updating d1ecea6..e9aab5c
+Fast-forward
+ file_brach_1.txt | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 file_brach_1.txt
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git push origin
+Everything up-to-date
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git branch -l
+* main
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git commit -m "Xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$ git push origin
+Everything up-to-date
+
+DELL LATITUDE 5420@ch▒n MINGW64 ~/Documents/Tin học cơ sở/24174600035-Trinh-Phuong-Thuy-baitap (main)
+$
