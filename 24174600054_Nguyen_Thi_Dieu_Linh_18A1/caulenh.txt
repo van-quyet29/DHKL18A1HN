@@ -1,0 +1,662 @@
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads (master)
+$ git clone  https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+Cloning into '24174600054_Nguen_Thi_Dieu_Linh_bai_tap'...
+warning: You appear to have cloned an empty repository.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads (master)
+$ cd 24174600054_Nguen_Thi_Dieu_Linh_bai_tap
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ echo " Lorem ipsum dolor sit amet, consectetur adipiscing elit. I nteger efficies, eros at lacinia suscipit, magna turpis ailquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus. Sed tempor in ẽ vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidum turpis. In sit tortor gravida, ultricies ante vitae, varius tortor. Aliquam finius porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac babitasse platea dictumst. Aliquam aliquam enim at masa pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum jussto a, aliquam risus" >24164600054_Nguen_Thi_Dieu_Linh_bai_tap.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git add .
+warning: in the working copy of '24164600054_Nguen_Thi_Dieu_Linh_bai_tap.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git commit -m "init project"
+[main (root-commit) 8529e3d] init project
+ 1 file changed, 1 insertion(+)
+ create mode 100644 24164600054_Nguen_Thi_Dieu_Linh_bai_tap.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 634 bytes | 634.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ * [new branch]      main -> main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git checkout -b Nhanh1
+Switched to a new branch 'Nhanh1'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit" >text_branch_1.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh1)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh1)
+$ git commit -m "Tao nhanh vao them vao nhanh1"
+[Nhanh1 bf126e7] Tao nhanh vao them vao nhanh1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh1)
+$ git push origin main
+Everything up-to-date
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh1)
+$ git push origin
+fatal: The current branch Nhanh1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Nhanh1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh1)
+$ git push origin Nhanh1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 385.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Nhanh1' on GitHub by visiting:
+remote:      https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/pull/new/Nhanh1
+remote:
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ * [new branch]      Nhanh1 -> Nhanh1
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh1)
+$ git checkout -b Nhanh2
+Switched to a new branch 'Nhanh2'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh2)
+$ echo "Praesent ullamcorper orci eu placerat sodales" >text_branch_2.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh2)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh2)
+$ git commit -m "Tao nhanh va them vao nhanh2"
+[Nhanh2 d1cba62] Tao nhanh va them vao nhanh2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh2)
+$ git push origin
+fatal: The current branch Nhanh2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Nhanh2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh2)
+$ git push origin Nhanh2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Nhanh2' on GitHub by visiting:
+remote:      https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/pull/new/Nhanh2
+remote:
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ * [new branch]      Nhanh2 -> Nhanh2
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh2)
+$ git checkout -b Nhanh3
+Switched to a new branch 'Nhanh3'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh3)
+$ echo "Integer sit amet nisi porta ultrices non ante" >text_branch_3.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh3)
+$ git add .
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh3)
+$ git commit -m "Tao nhanh vao them vao nhanh3"
+[Nhanh3 7efdf6a] Tao nhanh vao them vao nhanh3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh3)
+$ git push origin
+fatal: The current branch Nhanh3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Nhanh3
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh3)
+$ git push origin Nhanh3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 340 bytes | 340.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Nhanh3' on GitHub by visiting:
+remote:      https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/pull/new/Nhanh3
+remote:
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ * [new branch]      Nhanh3 -> Nhanh3
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh3)
+$ git checkout -b Nhanh4
+Switched to a new branch 'Nhanh4'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ echo "Cras ac mi nec nisi porta ultricea sed ante" >text_branch_4.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git commit -m "Tao nhanh va them vao nhanh4"
+[Nhanh4 ad4a7e2] Tao nhanh va them vao nhanh4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git push origin
+fatal: The current branch Nhanh4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Nhanh4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git push origin Nhanh4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 324 bytes | 324.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Nhanh4' on GitHub by visiting:
+remote:      https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/pull/new/Nhanh4
+remote:
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ * [new branch]      Nhanh4 -> Nhanh4
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git branch -a
+  Nhanh1
+  Nhanh2
+  Nhanh3
+* Nhanh4
+  main
+  remotes/origin/Nhanh1
+  remotes/origin/Nhanh2
+  remotes/origin/Nhanh3
+  remotes/origin/Nhanh4
+  remotes/origin/main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git branch
+  Nhanh1
+  Nhanh2
+  Nhanh3
+* Nhanh4
+  main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git branch -d Nhanh4
+error: cannot delete branch 'Nhanh4' used by worktree at 'C:/Users/nguye/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git log --oneline
+ad4a7e2 (HEAD -> Nhanh4, origin/Nhanh4) Tao nhanh va them vao nhanh4
+7efdf6a (origin/Nhanh3, Nhanh3) Tao nhanh vao them vao nhanh3
+d1cba62 (origin/Nhanh2, Nhanh2) Tao nhanh va them vao nhanh2
+bf126e7 (origin/Nhanh1, Nhanh1) Tao nhanh vao them vao nhanh1
+8529e3d (origin/main, main) init project
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git branch -d Nhanh4
+error: cannot delete branch 'Nhanh4' used by worktree at 'C:/Users/nguye/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git branch -l
+  Nhanh1
+  Nhanh2
+  Nhanh3
+* Nhanh4
+  main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git branch -d Nhanh4
+error: the branch 'Nhanh4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D Nhanh4'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git branch -D Nhanh4
+Deleted branch Nhanh4 (was ad4a7e2).
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git push origin -D Nhanh4
+error: unknown switch `D'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git push origin -d Nhanh4
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ - [deleted]         Nhanh4
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git pull origin main
+From https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git pull
+Already up to date.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git fetch origin main
+From https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap
+ * branch            main       -> FETCH_HEAD
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git pull origin main
+From https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git clone Centralrepo main_folder
+fatal: repository 'Centralrepo' does not exist
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git clone Centralrepo Main_folder
+fatal: repository 'Centralrepo' does not exist
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ mkdir main_folder
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ cd main_foler
+bash: cd: main_foler: No such file or directory
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ cd main_folder
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git init --bare centralrepo
+Initialized empty Git repository in C:/Users/nguye/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder/centralrepo/
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git clone centrairepo main_folder
+fatal: repository 'centrairepo' does not exist
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ fit clone centralrepo
+bash: fit: command not found
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git clone centralrepo Dev1
+Cloning into 'Dev1'...
+warning: You appear to have cloned an empty repository.
+done.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ echo "Day la file moi" >main_txt_1.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git add .
+error: 'main_folder/Dev1/' does not have a commit checked out
+fatal: adding files failed
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git commit -m "Them file main_txt_1"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ echo "Day la file moi" >main-txt_1.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git add .
+warning: in the working copy of 'main_folder/centralrepo/HEAD', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/config', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/description', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/applypatch-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/commit-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/fsmonitor-watchman.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/post-update.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/pre-applypatch.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/pre-commit.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/pre-merge-commit.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/pre-push.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/pre-rebase.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/pre-receive.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/prepare-commit-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/push-to-checkout.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/sendemail-validate.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/hooks/update.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/centralrepo/info/exclude', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main-txt_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git commit -m "Them file main_txt_1"
+[main 5ffae36] Them file main_txt_1
+ 19 files changed, 883 insertions(+)
+ create mode 100644 main_folder/centralrepo/HEAD
+ create mode 100644 main_folder/centralrepo/config
+ create mode 100644 main_folder/centralrepo/description
+ create mode 100644 main_folder/centralrepo/hooks/applypatch-msg.sample
+ create mode 100644 main_folder/centralrepo/hooks/commit-msg.sample
+ create mode 100644 main_folder/centralrepo/hooks/fsmonitor-watchman.sample
+ create mode 100644 main_folder/centralrepo/hooks/post-update.sample
+ create mode 100644 main_folder/centralrepo/hooks/pre-applypatch.sample
+ create mode 100644 main_folder/centralrepo/hooks/pre-commit.sample
+ create mode 100644 main_folder/centralrepo/hooks/pre-merge-commit.sample
+ create mode 100644 main_folder/centralrepo/hooks/pre-push.sample
+ create mode 100644 main_folder/centralrepo/hooks/pre-rebase.sample
+ create mode 100644 main_folder/centralrepo/hooks/pre-receive.sample
+ create mode 100644 main_folder/centralrepo/hooks/prepare-commit-msg.sample
+ create mode 100644 main_folder/centralrepo/hooks/push-to-checkout.sample
+ create mode 100644 main_folder/centralrepo/hooks/sendemail-validate.sample
+ create mode 100644 main_folder/centralrepo/hooks/update.sample
+ create mode 100644 main_folder/centralrepo/info/exclude
+ create mode 100644 main_folder/main-txt_1.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git push
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (25/25), 12.42 KiB | 1.77 MiB/s, done.
+Total 25 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+   8529e3d..5ffae36  main -> main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ echo "Day la file moi" >main_txt_2.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git add .
+warning: in the working copy of 'main_folder/main_txt_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git commit -m"Them file main_txt_2"
+[main 63f366a] Them file main_txt_2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main_folder/main_txt_2.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 356 bytes | 356.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+   5ffae36..63f366a  main -> main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git pull
+Already up to date.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ echo "Day la file moi" >main_txt_3.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git add .
+warning: in the working copy of 'main_folder/main_txt_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git commit -m "Them vao main_txt_"
+[main a9fa020] Them vao main_txt_
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main_folder/main_txt_3.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+   63f366a..a9fa020  main -> main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git pull origin
+Already up to date.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (main)
+$ git checkout -b Nhanh5
+Switched to a new branch 'Nhanh5'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (Nhanh5)
+$ git add .
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/main_folder (Nhanh5)
+$ git commit -m "Tao nhanh va cho file vao nhanh5'
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh5)
+$ git push origin main
+
+Everything up-to-date
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git checkout -b Nhanh5
+fatal: a branch named 'Nhanh5' already exists
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git checkout -b Nhanh6
+Switched to a new branch 'Nhanh6'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git add .
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git commi -m "Tao nhanh va them vao nhanh6"
+git: 'commi' is not a git command. See 'git --help'.
+
+The most similar commands are
+        commit
+        column
+        config
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git commit -m "Tao nhanh va them vao nhanh6"
+On branch Nhanh6
+nothing to commit, working tree clean
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git push origin
+fatal: The current branch Nhanh6 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Nhanh6
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git push origin Nhanh6
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Nhanh6' on GitHub by visiting:
+remote:      https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap/pull/new/Nhanh6
+remote:
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ * [new branch]      Nhanh6 -> Nhanh6
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ ls
+24164600054_Nguen_Thi_Dieu_Linh_bai_tap.txt  main_folder/
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git branch -D Nhanh6
+error: cannot delete branch 'Nhanh6' used by worktree at 'C:/Users/nguye/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git branch -d Nhanh6
+error: cannot delete branch 'Nhanh6' used by worktree at 'C:/Users/nguye/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git branch -d Nhanh6
+error: cannot delete branch 'Nhanh6' used by worktree at 'C:/Users/nguye/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap'
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git branch -l
+  Nhanh1
+  Nhanh2
+  Nhanh3
+  Nhanh5
+* Nhanh6
+  main
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (Nhanh6)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git branch -D Nhanh6
+Deleted branch Nhanh6 (was a9fa020).
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git push origin -d Nhanh6
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ - [deleted]         Nhanh6
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git branch -D Nhanh2
+Deleted branch Nhanh2 (was d1cba62).
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git push origin -d Nhanh2
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ - [deleted]         Nhanh2
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git pull
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (7/7), 3.08 KiB | 92.00 KiB/s, done.
+From https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap
+   a9fa020..ca9189a  main       -> origin/main
+   bf126e7..063ba9a  Nhanh1     -> origin/Nhanh1
+Updating a9fa020..ca9189a
+Fast-forward
+ text_branch_1.txt | 1 +
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git branch -D Nhanh3
+Deleted branch Nhanh3 (was 7efdf6a).
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git branch -d Nhanh3
+error: branch 'Nhanh3' not found
+
+nguye@DESKTOP-C5TC1G8 MINGW64 ~/Downloads/24174600054_Nguen_Thi_Dieu_Linh_bai_tap (main)
+$ git push origin -d Nhanh3
+To https://github.com/dieulinh0604/24174600054_Nguen_Thi_Dieu_Linh_bai_tap.git
+ - [deleted]         Nhanh3
+
+
