@@ -1,0 +1,360 @@
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git
+$ git clone https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+Cloning into '24174600033_NguyenThiVanAnh_18A1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git
+$ cd 24174600033_NguyenThiVanAnh_18A1
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia
+suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus.
+Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum
+risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida,
+ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies
+dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa
+pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi
+quis felis placerat, interdum justo a, aliquam risus.">README.md
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git add .
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git commit -m"sua noi dung"
+[main 53f2317] sua noi dung
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 612 bytes | 612.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+   d71cdb3..53f2317  main -> main
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit.">text_branch_1.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_1)
+$ git add .
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_1)
+$ git commit -m"nhanh1"
+[branch_1 e4ba0f8] nhanh1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1/pull/new/branch_1
+remote:
+To https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+ * [new branch]      branch_1 -> branch_1
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_1)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales.">text_branch_2.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_2)
+$ git add .
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_2)
+$ git commit -m"nhanh2"
+[branch_2 7d47302] nhanh2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1/pull/new/branch_2
+remote:
+To https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+ * [new branch]      branch_2 -> branch_2
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_2)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat.">text_branch_3.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_3)
+$ git add .
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_3)
+$ git commit -m"nhanh3"
+[branch_3 0ef0c55] nhanh3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 326 bytes | 326.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1/pull/new/branch_3
+remote:
+To https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+ * [new branch]      branch_3 -> branch_3
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_3)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante.">text_branch_4.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_4)
+$ git add .
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_4)
+$ git commit -m"nhanh4"
+[branch_4 e39e2cb] nhanh4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1/pull/new/branch_4
+remote:
+To https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+ * [new branch]      branch_4 -> branch_4
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was e39e2cb).
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git pull origin main
+From https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ mkdir main_folder
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ cd main_folder
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1/main_folder (main)
+$ touch main_txt_1.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1/main_folder (main)
+$ touch main_txt_2.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1/main_folder (main)
+$ touch main_txt_3.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1/main_folder (main)
+$ git add main_folder
+fatal: pathspec 'main_folder' did not match any files
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1/main_folder (main)
+$ cd ..
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git add main_folder
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git commit -m "tao folder"
+[main 8feef8f] tao folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 336 bytes | 336.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+   53f2317..8feef8f  main -> main
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non  metus
+eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan  sapien, ac
+finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el  dui nec feugiat.
+Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam  ut hendrerit est. Nulla
+sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent  per conubia nostra, per
+inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis  ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula  auctor viverra. Phasellus
+dignissim mollis leo, vitae tristique enim.">text_branch_1.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_5)
+$ git add .
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_5)
+$ git commit -m"cap nhat file"
+[branch_5 50265c6] cap nhat file
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 670 bytes | 670.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1/pull/new/branch_5
+remote:
+To https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1.git
+ * [new branch]      branch_5 -> branch_5
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 50265c6).
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 7d47302).
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was 0ef0c55).
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git add .
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git commit -m "xoa nhanh"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git pull
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.59 KiB | 2.00 KiB/s, done.
+From https://github.com/vanhh1406/24174600033_NguyenThiVanAnh_18A1
+   8feef8f..98e3ec3  main       -> origin/main
+   e4ba0f8..329e7e9  branch_1   -> origin/branch_1
+Updating 8feef8f..98e3ec3
+Fast-forward
+ text_branch_1.txt | 8 ++++++++
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 11 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git push origin
+Everything up-to-date
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git branch -l
+  branch_1
+* main
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git add .
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git commit -m"xoa nhanh"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$ git push origin
+Everything up-to-date
+
+van anh@DESKTOP-RPQJVGS MINGW64 /d/bt git/24174600033_NguyenThiVanAnh_18A1 (main)
+$
