@@ -1,0 +1,338 @@
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c
+$ git clone https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+Cloning into '24174600016_BuiThiYen_18A1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c
+$ cd 24174600016_BuiThiYen_18A1
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, biben dum tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Done accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus. " > README.md
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git commit -m "chinh sua file README"
+[main dd20798] chinh sua file README
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 636 bytes | 636.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+   325585e..dd20798  main -> main
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git checkout -b "branch_1"
+Switched to a new branch 'branch_1'
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit " > text_branch_1.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_1)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_1)
+$ git commit -m "tao nhanh 1"
+[branch_1 d7b3497] tao nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1/pull/new/branch_1
+remote:
+To https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+ * [new branch]      branch_1 -> branch_1
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git checkout -b "branch_2"
+Switched to a new branch 'branch_2'
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales " > text_branch_2.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_2)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_2)
+$ git commit -m "tao nhanh 2"
+[branch_2 2cd0007] tao nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 341 bytes | 341.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1/pull/new/branch_2
+remote:
+To https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+ * [new branch]      branch_2 -> branch_2
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git checkout -b "tao nhanh 3"
+fatal: 'tao nhanh 3' is not a valid branch name
+hint: See `man git check-ref-format`
+hint: Disable this message with "git config advice.refSyntax false"
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat " > text_branch_3.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_3)
+$ git add .
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_3)
+$ git commit -m "tao nhanh 3"
+[branch_3 eccaed4] tao nhanh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_3)
+$ git push origin branch_3
+fatal: unable to access 'https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git/': SSL certificate problem: unable to get local issuer certificate
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 350 bytes | 350.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1/pull/new/branch_3
+remote:
+To https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+ * [new branch]      branch_3 -> branch_3
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git checkout -b "branch_4"
+Switched to a new branch 'branch_4'
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_4)
+$ echo "Cras ac mi nec porta ultrices sed non ante " > text_branch_4.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_4)
+$ git add .
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_4)
+$ git commit -m "tao nhanh 4"
+[branch_4 18ee6d7] tao nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 335 bytes | 335.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1/pull/new/branch_4
+remote:
+To https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+ * [new branch]      branch_4 -> branch_4
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 18ee6d7).
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ mkdir main_folder
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ cd main_folder
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1/main_folder (main)
+$ touch main_txt_1.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1/main_folder (main)
+$ touch main_txt_2.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1/main_folder (main)
+$ touch main_txt_3.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1/main_folder (main)
+$ cd ..
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git add main_folder
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git commit -m "them folder"
+[main 7e17eee] them folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 348 bytes | 348.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+   dd20798..7e17eee  main -> main
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_1)
+$ git checkout -b "branch_5"
+Switched to a new branch 'branch_5'
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus
+eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac
+finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat.
+Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla
+sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus
+dignissim mollis leo, vitae tristique enim " > text_branch_1.txt
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_5)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_5)
+$ git commit -m "tao nhanh 5"
+[branch_5 6c50fd6] tao nhanh 5
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 675 bytes | 675.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1/pull/new/branch_5
+remote:
+To https://github.com/buithiyen2804/24174600016_BuiThiYen_18A1.git
+ * [new branch]      branch_5 -> branch_5
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 6c50fd6).
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -D branch_1
+Deleted branch branch_1 (was d7b3497).
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 2cd0007).
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was eccaed4).
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git add .
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git pull
+Already up to date.
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git push origin
+Everything up-to-date
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$ git branch -l
+* main
+
+ADMIN@DESKTOP-HPH8KTD MINGW64 /c/24174600016_BuiThiYen_18A1 (main)
+$
